@@ -431,3 +431,61 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Project Info */
+#project-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Align content vertically */
+  gap: 2rem;
+  height: auto; /* Remove fixed height */
+}
+
+.project-info p {
+  font-size: 1.5rem;
+}
+
+#screenshots {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+/* Problem Solved */
+#problem-solved {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Align content vertically */
+  gap: 2rem;
+  height: auto; /* Remove fixed height */
+}
+
+.problem-solved p {
+  font-size: 1.5rem;
+}
+
+/* Technologies Used */
+#technologies-used {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Align content vertically */
+  gap: 2rem;
+  height: auto; /* Remove fixed height */
+}
+
+.technologies-used p {
+  font-size: 1.5rem;
+}
+
+/* Header */
+#project-header {
+  text-align: center; /* Center-align text */
+  padding: 2rem 0; /* Add padding for spacing */
+  background-color: #f0f0f0; /* Add background color */
+  border-bottom: 1px solid #ccc; /* Add border */
+}
+
+#project-header h1 {
+  font-size: 2rem; /* Adjust font size */
+  color: #333; /* Adjust text color */
+}
