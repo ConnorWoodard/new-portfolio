@@ -55,10 +55,11 @@
     height: 40vh;
   }
 
-  /* #profile {
-    height: 83vh;
-    margin-bottom: 0;
-  } */
+  #project-info,
+  #problem-solved,
+  #technologies-used {
+    align-items: center; /* Center-align content on smaller screens */
+  }
 
   article {
     font-size: 1rem;

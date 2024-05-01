@@ -150,7 +150,6 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -488,4 +487,19 @@ footer p {
 #project-header h1 {
   font-size: 2rem; /* Adjust font size */
   color: #333; /* Adjust text color */
+}
+
+.project1 {
+  min-height: calc(100vh - 156px); /* Adjust based on your header and footer height */
+  /* 156px is estimated total height of header and footer */
+}
+
+#project-info,
+#problem-solved,
+#technologies-used {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Change flex direction to column */
+  gap: 2rem;
+  padding-bottom: 4rem; /* Add padding to separate sections */
 }
